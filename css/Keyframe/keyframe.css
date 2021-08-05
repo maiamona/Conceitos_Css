@@ -1,0 +1,30 @@
+body{
+    background: #333;
+}
+
+.box{
+    background: white;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    /* animation-name: animate1;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    animation-direction: alternate;
+    animation-timing-function: ease-in-out; */
+    animation: animate1 5s forwards 1s ease-in-out; /* animation-name,  animation-duration, animation-fill-mode, animation-delay, animation-timing-function*/
+}
+
+@keyframes animate1{
+ from{
+     top: 0;
+ }
+
+   to{
+       width: 600px;
+       background-color: red;
+       top: 300px;
+   }
+}
